@@ -47,8 +47,8 @@
   "publishOptions": {
     "include": [
       "wwwroot",
-      "Views/**/*.cshtml",
-      "Areas/**/Views/**/*.cshtml",
+      "Views",
+      "Areas/**/Views",
       "appsettings.json",
       "web.config",
       "docker-compose.yml",
