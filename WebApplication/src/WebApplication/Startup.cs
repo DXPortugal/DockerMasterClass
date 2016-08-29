@@ -20,6 +20,7 @@ namespace WebApplication
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
+            Console.WriteLine("test");
         }
 
         public IConfigurationRoot Configuration { get; }
